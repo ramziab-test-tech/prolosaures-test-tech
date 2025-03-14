@@ -43,5 +43,6 @@ Le site est accessible via: http://127.0.0.1:8080/
 **4 Commandes utiles:**
 ```sh
 docker exec -it laravel_app bash # Accéder au conteneur Laravel
+npm run build
 php artisan test # Exécutez les tests unitaires une fois que vous êtes dans le conteneur.
 ```
